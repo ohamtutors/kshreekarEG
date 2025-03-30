@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Thank You</title>
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+    /* Ensures the page fills the entire viewport */
+    html, body {
+      height: 100%;
+      margin: 0;
+      display: flex;
+      flex-direction: column;
+    }
+
+    /* Ensures content is centered and pushes the footer to the bottom */
+    .content {
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      padding: 20px;
+    }
+
+    /* Footer sticks to the bottom */
+ 
+	    footer {
+      background: #343a40;
+      color: white;
+      text-align: center;
+      padding: 15px;
+      margin-top: 20px;
+	  width: 100%;
+    }
+    footer a {
+      color: #ffc107;
+      margin: 0 10px;
+      text-decoration: none;
+    }
+    footer a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+  <div id="topdiv" class="d-flex justify-content-center align-items-center bg-info text-white p-3">
+    <img src="logo.png" style="width:70px; height:70px;">
+    <h2 class="mt-2 ml-2">Kshreekar Educational Groups</h2>
+  </div>
+
+  <!-- Centered Content -->
+  <div class="content">
+    <h1>Thank You!</h1>
+    <h4>Your tutor requirement form has been submitted successfully.</h4><h5> We will get in touch with you shortly.</h5>
+  </div>
+
+  <!-- Footer Sticks at Bottom -->
+  <footer class="bg-dark text-white text-center p-3">
+    <div class="container">
+      <p class="mb-1">&copy; 2024 Kshreekar Educational Groups. All Rights Reserved.</p>
+      <p>
+        <a href="privacy.html" class="text-white mx-2">Privacy Policy</a> |
+        <a href="terms.html" class="text-white mx-2">Terms & Conditions</a> |
+    <p><strong>Email:</strong> <a href="mailto:kshreekareg@gmail.com">kshreekareg@gmail.com</a></p>
+      </p>
+    </div>
+  </footer>
+</body>
+</html>
